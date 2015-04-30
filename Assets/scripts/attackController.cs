@@ -7,8 +7,8 @@ namespace Gallant_Blade
 
 		public GameObject BaseAttack;
 		private GameObject attack;
-		public float duration;
-		private float timer;
+		public int duration; //The number of frames the attack exists for
+		private int timer;
 		private bool active;
 		private Transform attack_transform;
 		private bool facing_right;
@@ -32,12 +32,12 @@ namespace Gallant_Blade
 			if (!active) {
 				return;
 			}
-			timer += Time.deltaTime;
+			timer += 1;
 			attack.transform.position = attack_pos();
 			if (timer >= duration) {
 				Destroy(attack);
 				active = false;
-				timer = 0f;
+				timer = 0;
 			}
 		
 		}

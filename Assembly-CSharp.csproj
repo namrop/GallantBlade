@@ -85,6 +85,7 @@
      <Compile Include="Assets\scripts\PlatformerCharacter2D.cs" />
      <Compile Include="Assets\scripts\Restarter.cs" />
      <Compile Include="Assets\scripts\attackController.cs" />
+     <Compile Include="Assets\scripts\spider.cs" />
      <None Include="Assets\Example Games\Flappy Bird Style\_ReadMe.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Fonts\LuckiestGuy\LICENSE.txt" />
